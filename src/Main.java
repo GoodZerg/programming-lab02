@@ -1,14 +1,15 @@
+import Pokemons.*;
 import ru.ifmo.se.pokemon.*;
 
 public class Main {
     public static void main(String[] args) {
         Battle battle = new Battle();
-        Pokemon mesprit =    new Pokemon("Mesprit",  1);
-        Pokemon nosepass =   new Pokemon("Nosepass", 1);
-        Pokemon probopass =  new Pokemon("Probopass",  1);
-        Pokemon trapinch =   new Pokemon("Trapinch", 1);
-        Pokemon vibrava =    new Pokemon("Vibrava", 1);
-        Pokemon flygon =     new Pokemon("Flygon", 1);
+        Mesprit mesprit =      new Mesprit("aRolf",        1);
+        Nosepass nosepass =    new Nosepass("Starege",     1);
+        Probopass probopass =  new Probopass("Basedge",    1);
+        Trapinch trapinch =    new Trapinch("Deadge",      1);
+        Vibrava vibrava =      new Vibrava("Joker",        1);
+        Flygon flygon =        new Flygon("Optimus Prime", 1);
         battle.addAlly(mesprit);
         battle.addAlly(nosepass);
         battle.addAlly(probopass);
