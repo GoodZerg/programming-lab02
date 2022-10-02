@@ -9,4 +9,7 @@ public class DoubleTeam extends StatusMove {
     protected void applySelfEffects(Pokemon p){
         p.setCondition(new Effect().chance(0.75).turns(3).stat(Stat.EVASION, 1));
     }
+    protected java.lang.String describe(){
+        return "применяет DoubleTeam";
+    }
 }

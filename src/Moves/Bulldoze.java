@@ -7,4 +7,7 @@ public class Bulldoze extends PhysicalMove {
     public Bulldoze(){
         super(Type.FAIRY, 60, 100);
     }
+    protected java.lang.String describe(){
+        return "применяет Bulldoze";
+    }
 }

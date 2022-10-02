@@ -9,4 +9,7 @@ public class Swagger extends StatusMove {
     protected void applyOppEffects(Pokemon p){
         Effect.confuse(p);
     }
+    protected java.lang.String describe(){
+        return "применяет Swagger";
+    }
 }

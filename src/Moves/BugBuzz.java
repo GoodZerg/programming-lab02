@@ -7,4 +7,7 @@ public class BugBuzz extends SpecialMove {
     public BugBuzz(){
         super(Type.BUG, 90, 100);
     }
+    protected java.lang.String describe(){
+        return "применяет BugBuzz";
+    }
 }

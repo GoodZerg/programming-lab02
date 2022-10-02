@@ -9,5 +9,7 @@ public class ThunderWave extends StatusMove {
     protected void applyOppEffects(Pokemon p){
         p.setCondition(new Effect().chance(0.75).turns(3).stat(Stat.SPEED, -1));
     }
-
+    protected java.lang.String describe(){
+        return "применяет ThunderWave";
+    }
 }
