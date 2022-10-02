@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 
 public class ShadowBall extends SpecialMove {
-    ShadowBall(){
+    public ShadowBall(){
         super(Type.GHOST, 80, 100);
     }
 }

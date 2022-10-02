@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 
 public class DazzlingGleam extends SpecialMove {
-    DazzlingGleam(){
+    public DazzlingGleam(){
         super(Type.FAIRY, 80, 100);
     }
 }

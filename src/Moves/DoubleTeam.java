@@ -3,7 +3,7 @@ package Moves;
 import ru.ifmo.se.pokemon.*;
 
 public class DoubleTeam extends StatusMove {
-    DoubleTeam(){
+    public DoubleTeam(){
         super(Type.NORMAL, 0, 100);
     }
     protected void applySelfEffects(Pokemon p){

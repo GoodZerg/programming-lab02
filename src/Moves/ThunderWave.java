@@ -3,7 +3,7 @@ package Moves;
 import ru.ifmo.se.pokemon.*;
 
 public class ThunderWave extends StatusMove {
-    ThunderWave(){
+    public ThunderWave(){
         super(Type.ELECTRIC, 0, 90);
     }
     protected void applyOppEffects(Pokemon p){
